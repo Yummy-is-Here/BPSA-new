@@ -1,0 +1,28 @@
+{
+  "name": "bpsa-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "18.3.0",
+    "react-dom": "18.3.0",
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.24",
+    "lucide-react": "^0.357.0",
+    "framer-motion": "^11.1.4",
+    "@shadcn/ui": "^0.6.24",
+    "clsx": "^2.1.0"
+  },
+  "devDependencies": {
+    "eslint": "9.3.0",
+    "eslint-config-next": "15.0.0",
+    "typescript": "5.4.4"
+  }
+}
