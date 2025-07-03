@@ -27,9 +27,12 @@ export default function Contact() {
             required
             className="w-full p-3 rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800"
           />
-          <Button type="submit" className="w-full">
-            Odeslat poptávku
-          </Button>
+          <button
+  type="submit"
+  className="w-full rounded-2xl bg-highlight-500 px-6 py-3 font-semibold text-gray-900 hover:bg-highlight-400 transition"
+>
+  Odeslat poptávku
+        </button>
         </form>
       </div>
     </section>
